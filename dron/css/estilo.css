@@ -1,0 +1,318 @@
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	position: fixed;
+}
+
+#titulo{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 50px;
+	margin:50px auto 50px auto;
+	
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content:center;
+	
+	padding: 100px;
+	
+}
+.licencia{
+width: auto;
+	text-align: center;
+margin: auto;
+
+}
+.parrafo{
+width: auto;
+	text-align: center;
+margin:auto;
+
+}
+	
+.producto {
+	width: auto;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+.foto{
+	width: auto;
+	text-align: center;
+	border-top: 5px solid gray;
+	border-bottom: 3px solid gray;
+	user-select:none;
+	cursor: pointer;
+	
+}
+.fotoamp{
+	width: 100%;
+	margin: 0%;
+	border-top: 5px solid gray;
+	border-bottom: 3px solid gray;
+	user-select:none;
+	cursor: pointer;
+	
+}
+.descripcion, .descripcionamp {
+	width: 100%;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color:darkgrey;
+	text-align: center;
+	
+	
+}
+.nombre,.nombreampliar {
+	font-size: 25px;
+	font-family: fantasy;
+	color: black;
+	text-align: center;
+	user-select:none;
+	cursor: pointer;
+}
+
+
+
+#ampliar{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(255,53,2,0.5);
+	position: fixed;
+	top: 0;
+	display: none;
+	
+}
+
+.producto_amp{
+	position: absolute;
+	width:70%;
+	height: auto;
+	top: 0;
+	margin:50px auto;
+	bottom:0;
+	background-color: white;
+	right: 0;
+	left:0;
+	
+}
+
+#aspa {
+	background-image: url(../img/aspa.png);
+	background-repeat: no-repeat;
+	width:128px;
+	height: 128px;
+	position: absolute;
+	top:10px;
+	right: -200px;
+	border-radius: 10px;
+	
+	user-select:none;
+	cursor: pointer;
+	
+	
+	
+}
+
+
+#left {
+	background-image: url(../img/left.png);
+	background-repeat: no-repeat;
+	width: 128px;
+	height: 128px;
+	position: absolute;
+	left: 80px;
+	bottom: 250px;
+	user-select:none;
+	cursor: pointer;
+}
+
+#rigth {
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	width: 128px;
+	height: 128px;
+	position: absolute;
+	right: 80px;
+	bottom: 250px;
+	user-select:none;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.encabezado{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: flex-end;
+        right: 0;
+        margin: 5px;
+        top:0;
+        
+    }
+	img {
+		
+		vertical-align: top;
+	}
+	body {
+		margin: 0;
+	}
+	
+	
+	#titulo{
+		display: flex;
+		justify-content: center;
+		color: black;
+		width: 100%;
+		height: 50px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 20px;
+		text-align: center;
+	}
+	#container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:center;
+		
+				
+	}
+	
+	.producto {
+		width: 100%;
+		justify-content: space-between;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px;
+		
+		margin:10px;
+		border: 2px solid gray;
+		
+	}
+	
+	.foto{
+		width: 100%;
+		height: auto;
+		
+		
+		user-select:none;
+		cursor: pointer;
+		
+	}
+	.fotoamp{
+		width: 100%;
+		
+		margin: 0%;
+		
+		user-select:none;
+		cursor: pointer;
+		
+	}
+	.descripcion, .descripcionamp {
+		width: 100%;
+		font-size: 14px;
+		text-align: left;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		color: black;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		background-color:darkgrey;
+		text-align: center;
+		box-sizing: border-box;
+		
+	}
+	.nombre,.nombreampliar {
+		font-size: 20px;
+		font-family: fantasy;
+		color: black;
+		text-align: center;
+		user-select:none;
+		cursor: pointer;
+	}
+	
+	
+	
+	#ampliar{
+		width: 100%;
+		height: 100%;
+		background-color:rgba(255,53,2,0.5);
+		position: fixed;
+		top: 0;
+		display: none;
+		
+	}
+	
+	.producto_amp{
+		position: absolute;
+
+		width:100%;
+		height:250px;
+	
+		
+		top: 0;
+		margin:auto;
+		bottom:0;
+		background-color: white;
+		right: 0;
+		left:0;
+		
+	}
+	
+	#aspa {
+		background-image: url(../img/aspa.png);
+		background-repeat: no-repeat;
+		width:32px;
+		height: 32px;
+		position: absolute;
+		top:0px;
+		right: 0px;
+		
+		user-select:none;
+		cursor: pointer;
+		
+		
+		
+	}
+	
+	
+	#left {
+		background-image: url(../img/left.png);
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: absolute;
+		left: 80px;
+		top: 80px;
+		user-select:none;
+		cursor: pointer;
+	}
+	
+	#rigth {
+		background-image: url(../img/right.png);
+		background-repeat: no-repeat;
+		width: 128px;
+		height: 128px;
+		position: absolute;
+		right: 80px;
+		top: 80px;
+		user-select:none;
+		cursor: pointer;
+	}
+}

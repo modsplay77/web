@@ -1,0 +1,110 @@
+img {
+    max-width: 100%;
+}
+
+body {
+	margin:auto;
+    
+}
+.licencia{
+width:auto:
+text-align:center;
+}
+#art{
+    width: 50%;
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    padding: 0 0 0 5px;
+    border-top-style: dotted;
+    border-top-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;     
+    background-color: beige;
+    }
+#titol{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #face{
+        width: 50px;
+        position: absolute;
+        top:5px;
+        left:60%;
+           
+    
+    }
+    
+    
+    #boton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        align-content: flex-end;
+        
+        margin: 5px auto;
+    
+    }
+    
+
+    #articulo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    
+    }
+    #titol{
+        width: auto;
+        text-decoration: underline;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 0 10px 0;
+        padding: 10px 0 0 0;
+    }
+   #art{
+    width: 50%;
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    padding: 10px;
+   
+    border-top-style: dotted;
+    border-top-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;     
+    background-color: beige;
+    }   
+   
+    
+
+    .encabezado{
+        position: absolute;
+        top: 600px;
+        margin: auto;
+        right: 20px;
+        
+    }
+    #cos{
+        display: flex;
+        margin: auto;
+    }
+    
+  
+    
+}
+
+
+	

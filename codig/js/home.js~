@@ -1,0 +1,38 @@
+window.onload=inicio;
+menu_visible=false;
+var crono=setInterval(inicio,3500);
+
+var fotos=["img1_amp.jpg", "img2_amp.jpg", "img3_amp.jpg","img4_amp.jpg", "img5_amp.jpg", "img6_amp.jpg"];
+
+var secuencia=0;
+function inicio(){
+	document.getElementById("burger").onclick=menu;
+	
+}
+
+function menu(){
+	if (menu_visible==false){
+		document.getElementById("links").style.visibility="visible";
+		document.getElementById("inicio").style.visibility="hidden";
+		menu_visible=true;
+	}else{
+		document.getElementById("links").style.visibility="hidden";
+		document.getElementById("inicio").style.visibility="visible";
+		menu_visible=false;
+		
+	}
+	
+	document.getElementById("links").style.backgroundColor="darkgrey";
+	
+	var expo=Math.floor(Math.random()*fotos.length);
+    
+   
+   
+    secuencia++;
+    if(secuencia>=fotos.length){
+        secuencia=0;
+        
+        }
+    document.getElementById("vista").innerHTML =`<img src="img/${fotos[expo]}">`;
+}
+

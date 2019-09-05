@@ -1,0 +1,309 @@
+img{
+	width:100%;		
+	
+		}
+@font-face{
+   font-family: fuente;
+   src: url(Questrial-Regular.ttf) format('truetype');
+}
+
+body{
+	
+			width:1000px;
+			margin:auto;
+    
+   
+            
+}
+
+
+
+header {
+	width: 1000px;;
+	position: relative;
+    background-color: white;
+    display:flex;
+    margin-top: 20px;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+   
+    
+	
+	
+}
+
+.maleta {
+	width: 100px;
+    height: 100px;
+	
+   
+	
+	
+}
+
+.texto1{
+	width: 30%;
+	height: auto;
+	font-size: 2em;
+	color: black;
+    font-family: fuente;
+	
+	
+	
+	
+	
+}
+
+.texto2{
+	width: 30%;
+	height: auto;
+	font-size: 2em;
+	color: red;
+    font-family: fuente;
+	
+}
+.nav{
+    background-color: #555555;
+    
+    width: 100%;
+    height: 30px;
+    font-size: 1.2em;
+    display:flex;
+
+    flex-direction: row;
+justify-content:center;
+align-items:flex-end;
+flex-wrap: nowrap;
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+.seccion{
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #e8d019;
+    font-family: fuente;
+    border-right: 1px dotted white;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+}
+
+#activo{
+    background:#808080;
+}	
+
+
+.borde{
+	width: 100%;
+    height: 5px;
+	background-color: #808080;
+
+
+	
+
+	
+}
+
+
+a:hover {
+    color: :white;
+    background-color: #808080;
+    cursor:pointer;
+    
+}
+
+
+
+
+
+.contenido{
+    width: 50%;
+    position: relative;
+    font-family: fuente;
+    display:flex;
+			flex-wrap: wrap;
+	        flex-direction: row;
+    float: left;
+        
+}
+
+
+.titulo{
+    width: auto;
+    margin-top: 30px;
+    
+    
+}
+
+.container {
+    width: auto;
+    margin: auto;
+   
+    
+    
+}
+.textos {
+	width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-left: 50px;
+    top:0;
+    flex-direction: column;
+  
+			
+			
+	
+}
+
+.banner {
+    
+    width: 100%;
+    background-color: #808080;
+    color: white;
+    font-family: fuente;
+    font-size: 1em;
+    left: 70%;
+    top: 100px;
+    position: absolute;
+    text-align:center;
+
+   
+   
+    
+}
+
+.cont_fotos {
+  
+    width: 100%;
+   
+    position: relative;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+
+.articulo {
+   width: 100%;
+    margin: auto;
+    top: 0;
+    display:flex
+    
+}
+
+.fotos {
+    width: 50%;
+    height: 50%;
+    border-right: 5px solid #808082;
+   
+}
+
+.container {
+    width: 100%;
+    
+ 
+    border-top-style: dotted;
+   
+    border-width: 1px;
+    border-color: #a3a3a3;
+    position: relative;
+    top:0;
+}
+
+.parte2 {
+    display:flex;
+    width: 100%;
+    position: relative;
+    
+			flex-wrap: wrap;
+	        flex-direction: row;
+}
+
+aside {
+    margin: auto;
+    margin-top: 50px;
+    float: right;
+    display: :flex;
+    position: relative;
+	background-color:#808080;
+			box-sizing:border-box;
+			width:20%;
+    height: 450px;
+    justify-content: center;
+   align-items: center;
+    overflow: hidden;
+    
+			
+}
+.mapa{
+    background-image: url("../img/mapa_etiopia_este.png");
+    max-width: 350px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: 0 13px;
+    
+}
+.info {
+    background-color:black;
+			width:100%;
+			color:white;			
+			
+			font-family: fuente;
+			font-size:25px;
+			text-align:center;
+					
+			margin-top:10px;
+}
+
+.explicacion {
+    
+    width: auto;
+    text-align: left;
+    font-family: fuente;
+    color:white;
+    text-align: center;
+    
+    margin: 10px;
+    margin-top: 30px;
+   
+}
+
+.pie {
+    
+     position: relative;
+     margin-top: -50px;
+                height: 12px;
+font-size: 10px;
+            padding:5px 0px;
+
+            clear: both;
+
+            background: black;
+
+            text-align: center;
+
+            color: white;
+    font-family: fuente;
+    
+
+}
+
+.redonda {
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 4px 8px 10px gray;
+    overflow: hidden;
+}

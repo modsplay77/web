@@ -1,0 +1,374 @@
+
+body {
+    
+    margin:auto;
+   
+}
+
+
+
+
+#capzalera {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	width:100%; height:60px;
+	/*border:solid 1px #0066FF;*/
+	background:#003;
+	background-image:url(../../img/logo.jpg);
+	background-position: left;
+	background-repeat:no-repeat;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    
+
+}
+
+#face{
+    width:50px;
+    height:50px;
+    background-color: azure;
+    border-radius: 10px 10px 10px;
+    position: relative;
+    top:0px;
+    
+    margin: 5px 30px 0 0;
+
+}
+#face:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+
+    
+
+.encabezado{
+    position: relative;
+    top: 20px;
+    right: 50px;
+    
+    
+
+    
+    
+}
+#burger{
+    width:auto;
+    height: auto;
+    position: absolute;
+	top: -7px;
+    left: 13px;
+    border-right-style: dotted;
+    border-right-color: black;
+   
+    
+}
+#burger:hover{
+    cursor:pointer;
+}
+#inicio{
+    position: absolute;
+    top:10px;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+    
+}
+#nav{
+    width: 100%;
+    background-color:darkslateblue;
+    border-radius:0px 0px 20px 20px;
+    margin: auto;
+    position: fixed;
+    top: 60px;
+   
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+    
+    
+}
+#menu {
+    position: fixed;
+	margin: 2px 0 0 0;
+	list-style: none;
+	float:left;
+    width:100%; 
+    height:80px;
+	  
+	
+	border-radius:0 0 20px 20px;
+}
+
+a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content:center;
+    border-right-style: groove;
+    border-right-color: beige;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+    
+}
+#contacto{
+    border-right-style: none;
+}
+#links{
+    width: 100%;
+font-size: 1.5em;
+    font-family: fantasy;
+    margin: auto;
+    font-weight: bolder;
+    display: flex;
+    justify-content:center;
+    visibility: hidden;
+    
+}
+ a:hover{
+    text-decoration:none;
+     color:black;
+}
+
+#peu{
+    display: flex;
+	width:100%; height:auto;
+	background:#003;
+	border-radius:20px 20px 0px 0px;
+    position:fixed;
+    bottom:0;
+
+}
+.activo{
+    background: white;
+    border-top-color: black;
+    border-left-color: black;
+}
+#menupeus{
+    text-align: center;
+    color: crimson;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+	
+}
+
+
+@media only screen and (max-width: 600px) {
+     body {
+        max-width: 100%;
+        margin:auto;
+    }
+    
+    #face{
+        width: 50px;
+        position: absolute;
+        top:5px;
+        left:60%;
+           
+    
+    }
+    
+   
+    #boton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        align-content: flex-end;
+        
+        margin: 5px auto;
+    
+    }
+   
+    
+ #capzalera {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	width:100%; height:60px;
+	/*border:solid 1px #0066FF;*/
+	background:#003;
+	background-image:url(../../img/logo.jpg);
+	background-position: left;
+	background-repeat:no-repeat;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    
+
+}
+    
+    #burger{
+        width:auto;
+        height: auto;
+        position: absolute;
+        top: -7px;
+        left: 13px;
+        border-right-style: dotted;
+        border-right-color: black;
+        
+    }
+    #burger:hover{
+        cursor:pointer;
+    }
+    #inicio{
+        position: absolute;
+        top:10px;
+        left: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    
+        
+    }
+    #nav{
+        width: 100%;
+        height: 30px;
+        background-color:darkslateblue;
+        border-radius:0px 0px 20px 20px;
+        margin: auto;
+        position: fixed;
+        top: 60px;
+        border-top: 5px solid white;
+        display: flex;
+        text-decoration: none;
+        overflow: hidden;
+        
+        
+    }
+  
+    
+    a{
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        justify-content:center;
+        border-right-style: groove;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-left-color: black;
+    
+        
+    }
+    #contacto{
+        border-right-style: groove;
+    }
+    #links{
+        width: 70%;
+    font-size: 12px;
+        font-family: fantasy;
+        margin: auto;
+        font-weight: bolder;
+        display: flex;
+        justify-content:center;
+        visibility: hidden;
+        
+        
+    }
+     a:hover{
+        text-decoration:none;
+         color:black;
+    }
+   
+    
+    #peu{
+        display: flex;
+        width:100%; 
+        height:30px;
+        background:#003;
+        border-radius:20px 20px 0px 0px;
+        position: fixed;
+        bottom: 0px;
+        
+        
+    }
+    
+    .activo{
+        background: white;
+        border-top: 2px solid black;
+        border-right-color: black;
+        border-left-color: black;
+    }   
+    #menupeus{
+        width: 100%;
+        justify-content: space-between;
+        color: crimson;
+        text-align: center;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #articulo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    #titol{
+        width: auto;
+        text-decoration: underline;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    #art{
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        
+        
+        margin:20px auto;
+        border-bottom-style: dotted;
+        border-bottom-color: darkgray;
+        border-top-style: dotted;
+        border-top-color: darkgray;
+    }    
+    #text{
+        
+        margin: 10px 0 0 0;
+        line-height: 1.2em;
+    }
+    
+#face{
+    width:30px;
+    height:30px;
+    background-color: azure;
+    border-radius: 10px 10px 10px;
+    
+    display: flex;
+    right: -100px;
+    margin:auto;
+
+
+}
+#face:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+   
+    
+    
+  
+    
+}
